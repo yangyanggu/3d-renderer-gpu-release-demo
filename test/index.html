@@ -1,0 +1,29 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>测试</title>
+    <style type="text/css">
+      html,body,#app{
+          height: 100%;
+      }
+      .button-container{
+          position: absolute;
+          left: 20px;
+          top: 20px;
+          z-index: 10;
+      }
+
+    </style>
+  </head>
+  <body>
+    <div id="app"></div>
+    <div class="button-container">
+      <button id="destroy">destroy tiles</button>
+      <button id="create">create tiles</button>
+      <button id="newDestroy">PR destroy</button>
+    </div>
+    <script src="/dist/index.js" ></script>
+  </body>
+</html>
